@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+
+button , input {
+    border: 2px solid white;
+    padding: 10px;
+}
+
+button {
+    background-color: #495e49;
+}
