@@ -16,7 +16,7 @@ export default function PostUserForm() {
             <input {...register('name')} type="text" placeholder='name ...' />
             <input {...register('email')} type="email" placeholder='email ...' />
             <input {...register('age')} min={10} step={1} type="number" placeholder='age ...' />
-            <button>Post Product</button>
+            <button>Post User</button>
         </form>
     )
 }

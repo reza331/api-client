@@ -8,7 +8,7 @@ export const UserSchema = z.object({
 })
 
 export const CreateUserSchema = z.object({
-    name: z.string(),
+    name: z.string().nonempty(),
     email: z.string().email(),
     age: z.number().int().nonnegative(),
 })
